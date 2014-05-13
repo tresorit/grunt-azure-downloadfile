@@ -1,0 +1,25 @@
+{
+  "name": "grunt-azure-downloadfile",
+  "version": "0.0.1",
+  "description": "Download a file from Azure blob storage",
+  "author": {
+    "name": "Adam Lippai"
+  },
+  "license": "BSL-1.0",
+  "homepage": "https://github.com/tresorit/grunt-azure-downloadfile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tresorit/grunt-azure-downloadfile.git"
+  },
+  "dependencies": {
+    "azure": "~0.9"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "readme": "# grunt-azure-downloadfile\n\nGrunt task for copying a file from Azure Blob storage.\n\nAzure SDK uses by default the environment variables AZURE_STORAGE_ACCOUNT and AZURE_STORAGE_ACCESS_KEY.\nCustom connection arguments can be set in service.\n\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tresorit/grunt-azure-downloadfile/issues"
+  }
+}
